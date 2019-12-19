@@ -1,0 +1,27 @@
+/* LANDSCAPE */
+@media screen and (max-width: 480px) { 
+	header { position: relative; }
+	h1 { width: 440px; height: 100px; text-align: center; }
+	
+	#about { position: relative; left: 40px; width: 440px; }
+	#about p { display: inline-block; margin: 5px 0; padding: 0; }
+	
+	#recent-work { width: 444px; margin: 0 18px; }
+	#recent-work h2 { font-family: LeagueGothic; text-transform: uppercase; font-size: 2.5em; text-align: center; font-size: 4em; margin: 20px 0 0; }
+	#recent-work li { padding: 10px 0; }
+	.screenshot { width: 440px; height: 132px; -webkit-background-size: 440px 132px; }
+} 
+
+/* PORTRAIT */
+@media screen and (max-width: 320px) { 
+	header { position: relative; }
+	h1 { width: 280px; height: 60px; text-align: center; font-size: 6em; margin: 0 auto; }
+	
+	#about { position: relative; left: 40px; width: 280px; }
+	#about p { display: inline-block; margin: 5px 0; padding: 0; }
+	
+	#recent-work { width: 284px; margin: 0 18px; }
+	#recent-work h2 { font-family: LeagueGothic; text-transform: uppercase; font-size: 1.5em; text-align: center; font-size: 4em; margin: 20px 0 0; }
+	#recent-work li { padding: 10px 0; }
+	.screenshot { width: 280px; height: 84px; -webkit-background-size: 280px 84px; }
+} 

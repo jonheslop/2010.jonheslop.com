@@ -1,0 +1,46 @@
+/* DEFAULTS */
+body { font-size: 80%; background-color: #ccc; color: rgba(0,0,0,.8); font-family: 'Myriad Pro', 'Lucida Grande', 'Trebuchet MS', Arial, Sans-Serif, Helvetica, Arial, sans-serif; margin: 0; padding: 0; background: #ffffff url(i/noisse.gif) fixed 0 0 repeat; }
+a:link { color: rgba(0,0,0,.8); text-decoration: none; border-bottom: 1px dotted rgba(0,0,0,.8); position: relative; -webkit-transition-property: color, border-bottom; -webkit-transition-duration: 0.2s, 0.2s; -webkit-transition-timing-function: ease-out, ease-out; }
+a:visited { color: rgba(0,0,0,.8); text-decoration: none; border-bottom: 1px dotted rgba(0,0,0,.8); }
+a:hover { color: rgba(241,91,91,.9); text-decoration: none; border-bottom: 1px solid rgba(241,91,91,.9); }
+a:active { color: rgba(241,91,91,.9); text-decoration: none; border-bottom: 1px solid rgba(241,91,91,.9); top: 1px; }
+
+/* HEADER */
+header, section, article, aside, footer { display: block; }
+header { position: fixed; top: 0; left: 0; margin: 10px 20px 0 10px; }
+h1 { width: 130px; height: 400px; font-weight: normal; font-family: "league-gothic", Impact, Helvetica; font-size: 8em; text-transform: uppercase; line-height: 0.85; text-align: right;  margin: 0; padding: 0; }
+h1 a { border: none!important; -webkit-font-smoothing: antialiased; position: relative; }
+.char1,.char2,.char3 {  }
+.char7:after { content: " "; }
+.char8,.char9,.char10 {  }
+.char3, .char7 { }
+
+/* ABOUT */
+#about { position: fixed; top: 0; left: 160px; width: 200px; }
+
+/* RECENT WORK */
+#recent-work { float: left; width: 524px; margin: 0 0 0 320px; }
+#recent-work h2 { margin: 10px 9px;  }
+#recent-work ul { padding: 0; margin: 0; list-style-type: none; }
+#recent-work li { padding: 10px; border-bottom: 1px dotted rgba(0,0,0,.3); }
+#recent-work li:last-child { border-bottom: none!important; }
+.screenshot { width: 500px; height: 150px; background-color: rgba(0,0,0,.3); border: 2px solid rgba(0,0,0,.8); background-position: 0 0; background-repeat: no-repeat; -webkit-border-radius: 10px; -moz-border-radius: 10px; border-radius: 10px; -webkit-transition: border 0.2s ease-out; position: relative; }
+a:hover .screenshot { border: 2px solid rgba(241,91,91,.9); }
+a:active .screenshot { border: 2px solid rgba(241,91,91,.9); top: 5px; }
+.do-book-co { background-image: url(i/dobookco.gif); }
+.do-village { background-image: url(i/dovillage.gif); }
+.tap-water-please { background-image: url(i/tapwaterplease.gif); }
+.confederate-arts { background-image: url(i/confederatearts.gif); }
+.bourgeois-bicycle-caravan { background-image: url(i/bourgeoisbicyclecaravan.gif); }
+.zoe-barker-draws { background-image: url(i/zoebarkerdraws.gif); }
+
+/* CLEAR FIX */
+.clearfix:after { content:"."; display:block; height:0; clear:both; visibility:hidden; }
+.clearfix { display:inline-block; }
+
+/* SORRY IE */
+.sorry-ie { display: none; }
+
+
+/* WEBFONT LOADER STUFF */
+.wf-inactive h1 { font-size: 6em; line-height: 1; }
